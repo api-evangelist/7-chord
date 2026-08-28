@@ -10,6 +10,17 @@ description: 7 Chord is a New York-based financial technology company providing 
   firewall so proprietary data never leaves their environment. Its pricing powers platforms
   including Broadridge's LTX, TS Imagine, and PortfolioBI, and is distributed through
   partners such as Bonds.com and Dewey Data.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
