@@ -1,0 +1,44 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.7-chord.com/plans
+sources:
+- https://www.7-chord.com/plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: BONDDROID LIVES BEHIND YOUR FIREWALL
+  managed_tier: PRO
+published: true
+note: Three tiers; only Pro shows a numeric price ($4,500 per month, billed annually). Enterprise is 'CALL
+  US'. Quandl data tier has no price listed.
+plan_count: 3
+currency: USD
+plans:
+- name: Enterprise
+  price_text: CALL US
+  period: year
+  unit: firmwide license
+  included_quota: Unlimited, Firmwide users; real-time; FIX API; 3 Custom APIs included; BondDroid behind
+    your firewall
+- name: Pro
+  price_text: $4,500
+  price: 4500
+  currency: USD
+  period: month
+  unit: desk license
+  included_quota: Up to 100 users; real-time; billed annually; BondDroid on our cloud
+- name: Data (Quandl)
+  price_text: DATA AVAILABLE ON QUANDL.COM
+  period: none
+  unit: per user
+  included_quota: End-of-day tick data, history back to 2012, delayed end-of-day
+rate_limit_statements:
+- Up to 20,000 datapoints per bond
