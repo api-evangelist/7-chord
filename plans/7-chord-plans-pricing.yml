@@ -42,3 +42,35 @@ plans:
   included_quota: End-of-day tick data, history back to 2012, delayed end-of-day
 rate_limit_statements:
 - Up to 20,000 datapoints per bond
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - seat
+  plans:
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Data (Quandl)
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - none
